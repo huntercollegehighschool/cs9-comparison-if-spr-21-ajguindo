@@ -23,3 +23,24 @@ not a month
 '''
 
 #start writing your code below
+#The months having 31 days in a year are January, March, May, July, August, October, and December.
+
+month = input("Enter a month: ")
+
+January = 31
+March = 31
+May = 31
+July = 31
+August = 31
+October = 31
+December = 31
+
+
+if month == 31: 
+  print("31")
+elif month: 
+  print("28 or 29")
+elif month == March:
+  print("30")
+else:
+  print("not a month")
