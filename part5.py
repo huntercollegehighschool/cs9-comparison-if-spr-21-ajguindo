@@ -23,15 +23,14 @@ not a month
 '''
 
 #start writing your code below
-#The months having 31 days in a year are January, March, May, July, August, October, and December.
 
 month = input("Enter a month: ")
 
-if month == "January" or "March" or "May" or "July" or "August" or "October" or "December": 
+if month == "January" == "March" == "May" == "July" == "August" == "October" == "December":
   print("31")
 elif month == "February": 
   print("28 or 29")
-elif month == "April" or "June" or "September" or "November":
+elif month == "April" == "June" == "September" == "November":
   print("30")
 else:
   print("not a month")
